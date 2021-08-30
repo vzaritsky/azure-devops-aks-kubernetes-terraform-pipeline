@@ -39,9 +39,7 @@ terraform {
 
 # 2. Terraform Provider Block for AzureRM
 provider "azurerm" {
-  features {
-
-  }
+  features {}
 }
 
 # 3. Terraform Resource Block: Define a Random Pet Resource

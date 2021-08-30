@@ -34,7 +34,7 @@ terraform {
     #key                   = "terraform-custom-vnet.tfstate"
   }  
 }
-
+#   test
 
 
 # 2. Terraform Provider Block for AzureRM

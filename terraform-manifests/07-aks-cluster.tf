@@ -61,7 +61,7 @@ windows_profile {
 # Linux Profile
 linux_profile {
   admin_username = "ubuntu"
-  
+  admin_password = "P@sword123"
   #ssh_key {
   #    key_data = file(var.ssh_public_key)
   #}

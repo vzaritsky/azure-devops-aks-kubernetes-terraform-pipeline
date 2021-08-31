@@ -13,8 +13,8 @@ terraform {
   # 2. Required Terraform Providers  
   required_providers {
     azurerm = {
-     # source  = "hashicorp/azurerm"
-     # version = "~> 2.0"
+      source  = "hashicorp/azurerm"
+      version = "~> 2.0"
     }
     azuread = {
       source  = "hashicorp/azuread"
@@ -37,6 +37,7 @@ terraform {
 
 # 2. Terraform Provider Block for AzureRM
 provider "azurerm" {
+  skip_provider_registration = true
   features {}
 }
 
